@@ -1,0 +1,141 @@
+body {
+    color: #5F6368;
+    font-family: roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+}
+
+.top-nav > .left {
+    display: flex;
+    align-items: center;
+}
+
+.top-nav > .left img {
+    width: 100px;
+    vertical-align: center;
+    margin-right: 0.5rem;
+}
+
+.top-nav > .left a {
+    font-size: 1.7rem;
+}
+
+.top-nav > .right button {
+    color: white;
+    background-color: #1A73E8;
+    border: 1px solid #1A73E8;
+    border-radius: 5px;
+    margin-left: 1rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.bottom-nav {
+    border-bottom: 1px solid #5F6368;
+    padding: 0 1.5rem;
+}
+
+.bottom-nav > ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.bottom-nav > ul > li {
+    display: inline-block;
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+}
+
+.bottom-nav > ul > li:first-child {
+    margin-left: 0;
+}
+
+.bottom-nav > ul > li.active {
+    color: #1A73E8;
+    border-bottom: 2px solid #1A73E8;
+}
+
+.bottom-nav > ul > li a {
+    font-weight: 500;
+}
+
+main .container {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+main .faq > a {
+    color: #1A73E8;
+}
+
+footer {
+    background-color: #F5F5F5;
+    font-size: small;
+    font-weight: 300;
+}
+
+footer .container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container > * {
+    display: flex;
+    align-items: center;
+}
+
+footer .left ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer .left ul li {
+    display: inline-block;
+    margin: 0 0.3rem;
+    padding: 0.5rem 0;
+}
+
+footer .left ul li:first-child {
+    margin-left: 0;
+}
+
+footer .right > select {
+    padding-right: 5rem;
+}
+
+footer .right i {
+    color: #1A73E8;
+    margin-right: 0.5rem;
+}
+
+footer .right .language-icon {
+    position: relative;
+}
+
+footer .right .language-icon > i:first-child {
+    transform: rotateY(180deg);
+}
+
+footer .right .language-icon > i:last-child {
+    font-size: 70%;
+    color: white;
+    position: absolute;
+    left: 0;
+    transform: translate(20%, 10%);
+    z-index: 1;
+}
